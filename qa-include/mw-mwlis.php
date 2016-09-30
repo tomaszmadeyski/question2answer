@@ -20,6 +20,9 @@ function getMwlisTags($account)
     curl_setopt_array( $ch, $options );
 
     $result =  curl_exec($ch); // Getting jSON result string
+
+    print_r($result);
+    die();
     $data = json_decode($result, true);
 
     $total = $data['hits']['total'];
