@@ -186,10 +186,10 @@ h2 {
 	background: #eee;
 	font-family: Arial,Helvetica,sans-serif;
 	font-weight: 700;
-	border-radius: 3px;
-	box-shadow: 0 -25px 25px -25px white inset;
-	border: 1px solid #ddd;
-	text-shadow: 1px 1px 0 white;
+	/* border-radius: 3px; */
+	/* box-shadow: 0 -25px 25px -25px white inset; */
+	/* border: 1px solid #ddd; */
+	/* text-shadow: 1px 1px 0 white; */
 }
 
 h3 {
