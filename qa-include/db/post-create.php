@@ -37,6 +37,24 @@
 			$categoryid, $type, $parentid, $userid, $cookieid, $ip, $title, $content, $format, $tagstring, $notify, $name
 		);
 
+		$baseUrl = 'https://slack.com/api/chat.postMessage';
+
+		$token = getenv('MW_SLACK_TOKEN');
+
+		$ch = curl_init();
+		$text = 'New question posted: ' . $title;
+
+		$query = http_build_query(array('token' => $token, 'channel' => 'socks-hacking', 'text' => $text));
+
+		curl_setopt($ch, CURLOPT_URL, $baseUrl);
+		curl_setopt($ch, CURLOPT_POST, 1);
+		curl_setopt($ch, CURLOPT_POSTFIELDS, $query);
+
+		curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+		curl_exec ($ch);
+
+		curl_close ($ch);
+
 		return qa_db_last_insert_id();
 	}
 
