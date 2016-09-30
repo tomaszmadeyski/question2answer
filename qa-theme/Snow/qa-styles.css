@@ -548,9 +548,7 @@ div.header-banner {
 .qa-nav-sub-link:hover, .qa-nav-sub-selected {
 	color: #000 !important;
 	background: #fff;
-	border-radius: 2px;
 	border: 1px solid #aaa;
-	box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.15) inset;
 	-moz-transition: all ease-in-out 0.2s;
 	-webkit-transition: all ease-in-out 0.2s;
 	-o-transition: all ease-in-out 0.2s;
