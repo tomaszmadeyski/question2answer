@@ -1638,15 +1638,15 @@ div.header-banner {
 
 .qa-suggest-next {
 	background: #f4f4f4;
-	border: 1px solid #c7dce6;
+/*	border: 1px solid #c7dce6; */
 	color: #444;
 	font-size: 14px;
 	text-align: center;
 	clear: both;
 	padding: 8px;
 	margin-top: 22px;
-	border-radius: 3px;
-	box-shadow: 0 10px 15px 0 white inset, 0 0 5px 0 rgba(0, 0, 0, 0.05);
+/*	border-radius: 3px; */
+/*	box-shadow: 0 10px 15px 0 white inset, 0 0 5px 0 rgba(0, 0, 0, 0.05); */
 }
 
 .qa-suggest-next a {
