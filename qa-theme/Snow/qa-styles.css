@@ -82,7 +82,7 @@ body {
 	text-align: center;
 	margin: 0 0 80px;
 	padding: 0;
-	background-color: #105FD3;
+	background-color: white;
 }
 
 body, td, input, textarea {
@@ -442,7 +442,7 @@ div.header-banner {
 /* main wrapper */
 .qa-main-shadow {
 	padding: 10px 10px 0;
-	background: url(images/shadow.png) no-repeat center -10px;
+/*	background: url(images/shadow.png) no-repeat center -10px; */
 }
 
 .qa-main-wrapper {
