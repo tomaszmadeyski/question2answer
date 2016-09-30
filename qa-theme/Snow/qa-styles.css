@@ -82,7 +82,7 @@ body {
 	text-align: center;
 	margin: 0 0 80px;
 	padding: 0;
-	background-color: yellowgreen;
+	background-color: #105FD3;
 }
 
 body, td, input, textarea {
@@ -92,7 +92,7 @@ body, td, input, textarea {
 
 a:link, a:visited {
 	text-decoration: none;
-	color: #0179b5;
+	color: #D85455;
 }
 
 a:hover, a:active {
