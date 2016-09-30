@@ -29,6 +29,7 @@
 	require_once QA_INCLUDE_DIR.'app/format.php';
 	require_once QA_INCLUDE_DIR.'app/limits.php';
 	require_once QA_INCLUDE_DIR.'app/updates.php';
+	require_once QA_INCLUDE_DIR . 'mw-mwlis.php';
 
 
 //	$handle, $userhtml are already set by qa-page-user.php - also $userid if using external user integration
@@ -382,6 +383,14 @@
 					'label' => qa_lang_html('users/member_for'),
 					'value' => qa_html( $membertime . ' (' . qa_lang_sub('main/since_x', $joindate['data']) . ')' ),
 					'id' => 'duration',
+				),
+
+
+				'mwlis' => array(
+					'type' => 'static',
+					'label' => 'MWLIS tags',
+					'value' => getMwlisTags($useraccount),
+					'id' => 'mwlistags',
 				),
 
 				'level' => array(
@@ -874,6 +883,8 @@
 			'value' => $votegavevalue,
 			'id' => 'votegave',
 		);
+
+
 
 		$innervalue = '<span class="qa-uf-user-upvoteds">'.number_format(@$userpoints['upvoteds']).'</span>';
 		$votegotvalue = ((@$userpoints['upvoteds'] == 1) ? qa_lang_html_sub('profile/1_up_vote', $innervalue, '1')
