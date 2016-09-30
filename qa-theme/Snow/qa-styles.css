@@ -2312,8 +2312,8 @@ a.qa-browse-cat-link:visited {
 	display: inline-block;
 	text-decoration: none !important;
 	padding: 2px 8px;
-	border-bottom: 1px solid #ccc;
-	border-right: 1px solid #ccc;
+/*	border-bottom: 1px solid #ccc;
+	border-right: 1px solid #ccc; */
 	border-radius: 2px;
 	-moz-transition: all ease-in-out 0.75s;
 	-webkit-transition: all ease-in-out 0.75s;
