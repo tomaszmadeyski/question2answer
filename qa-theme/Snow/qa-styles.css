@@ -632,13 +632,13 @@ div.header-banner {
 
 .qa-voting {
 	background: #e7f7ff;
-	border: 1px solid #c5d6df;
+/*	border: 1px solid #c5d6df; */
 	float: left;
 	width: 60px;
 	height: 60px;
 	margin-right: 5px;
 	padding: 0;
-	border-radius: 3px;
+/*	border-radius: 3px; */
 }
 
 .qa-vote-buttons {
@@ -801,14 +801,14 @@ div.header-banner {
 /* Answers and views count */
 .qa-a-count {
 	background: #eafff4;
-	border: 1px solid #c1daa6;
+/*	border: 1px solid #c1daa6; */
 	float: left;
 	width: 60px;
 	height: 60px;
 	text-align: center;
 	margin-right: 5px;
 	padding: 0;
-	border-radius: 3px;
+/*	border-radius: 3px; */
 }
 
 .qa-a-count-zero {
@@ -818,7 +818,7 @@ div.header-banner {
 
 .qa-a-count-selected {
 	background: #d9f5bb;
-	border: 1px solid #c1daa6;
+/*	border: 1px solid #c1daa6; */
 }
 
 .qa-a-count-data {
@@ -959,7 +959,7 @@ div.header-banner {
 	margin: 0 0 10px 0;
 	padding: 20px;
 	background: #FFC30A;
-	border: 1px solid #b6c4c8;
+/*	border: 1px solid #b6c4c8; */
 }
 
 .qa-feed {
