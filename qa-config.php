@@ -37,7 +37,7 @@
 	define('QA_MYSQL_HOSTNAME', '127.0.0.1');
 	define('QA_MYSQL_USERNAME', 'azure');
 	define('QA_MYSQL_PASSWORD', 'password');
-	define('QA_MYSQL_DATABASE', 'qa');
+	define('QA_MYSQL_DATABASE', 'azuredb');
 
 /*
 	Ultra-concise installation instructions:
