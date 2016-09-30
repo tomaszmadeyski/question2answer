@@ -479,8 +479,7 @@ class qa_html_theme_base
 		$this->output(
 			'<div class="qa-logo">',
 			$this->content['logo'],
-			'</div>',
-			
+			'</div>'
 		);
 	}
 
