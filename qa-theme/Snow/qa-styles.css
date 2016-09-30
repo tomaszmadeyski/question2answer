@@ -1540,7 +1540,7 @@ div.header-banner {
 /* Question list */
 .qa-q-list-item {
 	zoom: 1;
-	padding: 5px 5px 20px 5px; 
+	padding: 20px 5px 20px 5px; 
 	border-bottom: 1px solid #eee; 
 }
 
