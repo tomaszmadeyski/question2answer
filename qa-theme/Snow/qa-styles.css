@@ -813,7 +813,7 @@ div.header-banner {
 
 .qa-a-count-zero {
 	background: #ffe9d5;
-	border: 1px solid #ffd196;
+/* border: 1px solid #ffd196; */
 }
 
 .qa-a-count-selected {
