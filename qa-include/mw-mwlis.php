@@ -25,7 +25,7 @@ function getMwlisTags($account)
     $result =  curl_exec($ch); // Getting jSON result string
 
     if ($result == false) {
-        return 'curl error';
+        return curl_error ($ch);
     }
 
     $data = json_decode($result, true);
