@@ -21,6 +21,9 @@ function getMwlisTags($account)
 // Setting curl options
     curl_setopt_array( $ch, $options );
 
+    curl_setopt($ch, CURLOPT_SSL_VERIFYHOST, 0);
+    curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, 0);
+
 // Getting results
     $result =  curl_exec($ch); // Getting jSON result string
 
