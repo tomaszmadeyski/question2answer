@@ -11,18 +11,23 @@ function getMwlisTags($account)
 
     $ch = curl_init($jsonUrl);
 
+// Configuring curl options
     $options = array(
         CURLOPT_RETURNTRANSFER => true,
         CURLOPT_USERPWD => $username . ":" . $password,   // authentication
         CURLOPT_HTTPHEADER => array('Content-type: application/json') ,
     );
 
+// Setting curl options
     curl_setopt_array( $ch, $options );
 
+// Getting results
     $result =  curl_exec($ch); // Getting jSON result string
 
-    print_r($result);
-    die();
+    if ($result == false) {
+        return 'curl error';
+    }
+
     $data = json_decode($result, true);
 
     $total = $data['hits']['total'];
